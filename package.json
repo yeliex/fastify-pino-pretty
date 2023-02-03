@@ -1,10 +1,14 @@
 {
   "name": "fastify-pino-pretty",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "compact fastify pino logger for better development read",
   "main": "lib/index.js",
   "typings": "src/index.ts",
   "type": "commonjs",
+  "files": [
+    "lib",
+    "src"
+  ],
   "scripts": {
     "clean": "rm -rf es",
     "prebuild": "npm run clean",
