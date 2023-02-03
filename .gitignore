@@ -1,0 +1,14 @@
+.idea/
+.vscode/
+node_modules
+*.log
+*.tar.gz
+*.tgz
+.DS_Store
+*.d.ts
+dist
+es
+lib
+*.map
+*.js
+!.gitkeep
